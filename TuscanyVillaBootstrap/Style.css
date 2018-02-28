@@ -28,4 +28,65 @@ div.col.navcol{
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     letter-spacing:2px;
     opacity:.8;
+    align-self: center;
+}
+
+.row.subheaderbar {
+    text-align: center;
+    color: white;
+    background-color: #474e5d;
+    padding-top:20px;
+    padding-bottom:20px;
+}
+.row.locationsrowodd{
+   margin-right:30px;
+   margin-left:30px;
+   margin-top:30px;
+   height:300px;
+}
+
+div.col-7.locationscolodd{
+    padding-top:25px;
+    line-height:17px;
+}
+
+div.col-5.locationscolodd {
+    background: url('Images/italy-mountain-villa.jpeg')no-repeat center center;
+    height:270px;
+    background-size: cover;
+}
+
+div.col-5.locationscolodd2 {
+    background-image: url('Images/tuscany-grape-field-nature-51947.jpeg');
+    height: 270px;
+    background-size: cover;
+}
+
+div.col-5.locationscoleven {
+    background: url('Images/modern-villa.jpeg') no-repeat center center;
+    height: 270px;
+    background-size: cover;
+}
+
+button.btn{
+    background-color:#474e5d;
+    color:white;
+}
+
+p.locheader{
+    font-size:20px;
+}
+
+.row.locationsroweven {
+    margin-right: 30px;
+    margin-left: 30px;
+    margin-top: 30px;
+    height: 300px;
+    background-color: #474e5d;
+    color: white;
+}
+
+#evenbtn {
+    background-color: white;
+    color: #474e5d;
 }
