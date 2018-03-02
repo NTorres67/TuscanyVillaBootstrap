@@ -57,14 +57,14 @@ div.col-5.locationscolodd {
 }
 
 div.col-5.locationscolodd2 {
-    background-image: url('Images/tuscany-grape-field-nature-51947.jpeg');
+    background: url('Images/tuscany-grape-field-nature-51947.jpeg') no-repeat center center;
     height: 270px;
     background-size: cover;
 }
 
 div.col-5.locationscoleven {
     background: url('Images/modern-villa.jpeg') no-repeat center center;
-    height: 270px;
+    height: 225px;
     background-size: cover;
 }
 
@@ -78,15 +78,131 @@ p.locheader{
 }
 
 .row.locationsroweven {
-    margin-right: 30px;
-    margin-left: 30px;
-    margin-top: 30px;
     height: 300px;
     background-color: #474e5d;
     color: white;
+    padding-top: 40px;
+    padding-left: 40px;
 }
 
 #evenbtn {
     background-color: white;
     color: #474e5d;
+}
+
+/* checker board*/
+
+.row.checkerboard {
+    display:flex;
+    margin:40px;
+    /*margin-top:25px;
+    margin-right:20px;
+    margin-left:20px;*/
+}
+
+.col-4.checkercol {
+    width:348px;
+    height:348px;
+}
+
+#pic1.col-4.checkercol {
+    background: url('Images/3b-300x300.jpg') no-repeat center center;
+    /*width:100%;*/
+    /*height:auto;*/
+    /*background: url('Images/3b-348x348.jpg') no-repeat center center;*/
+    background-size: cover;
+}
+
+#pic2.col-4.checkercol {
+    background: url('Images/42-300x300.jpg') no-repeat center center;
+    /*width:100%;*/
+    /*height:auto;*/
+    /*background: url('Images/42-348x348.jpg') no-repeat center center;*/
+    background-size: cover;
+}
+
+p.checkerboard-header{
+    font-size:2vw;
+    padding-top:30px;
+    text-align:center;
+}
+
+p.checkerboard{
+    font-size:1vw;
+    text-align:center;
+    padding-left:10px;
+    padding-right:10px;
+}
+button.btn-checkerboard {
+    font-size:1vw;
+    background-color: #474e5d;
+    color: white;
+    margin-left:30%;
+}
+
+#pic3.col-4.checkercol {
+    /*background-image: url('Images/314-300x300.jpg');*/
+    background: url('Images/314-348x348.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+#pic4.col-4.checkercol {
+    /*background: url('Images/Villa-Rucellai-Toscani-2812-2-300x300.jpg') no-repeat center center;*/
+    background: url('Images/Villa-Rucellai-Toscani-2812-2-348x348.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+#pic5.col-4.checkercol {
+    /*background: url('Images/Villa-Vanna-231-300x300.jpg') no-repeat center center;*/
+    background: url('Images/Villa-Vanna-231-348x348.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+
+/* Ben's Checker board*/
+.spacerrow1 {
+    height: 50px;
+}
+
+.square {
+    float: left;
+    position: relative;
+    width: 30%;
+    padding-bottom: 30%; /* = width for a 1:1 aspect ratio */
+    background-size: cover;
+}
+
+div#text1.square.text {
+    float: left;
+    position: relative;
+    /*width: 30%;*/
+    /*height:auto;*/
+    /*padding-bottom: 30%;*/  /*= width for a 1:1 aspect ratio*/ 
+    /*background-size: cover;*/
+    margin-bottom:-20%;
+}
+
+
+.checkerrow {
+    justify-content: center;
+}
+
+#pic1 {
+    background: url('images/3b-348x348.jpg') no-repeat center center;
+}
+
+#pic2 {
+    background: url('images/42-348x348.jpg') no-repeat center center;
+}
+
+#pic3 {
+    background: url('images/314-348x348.jpg') no-repeat center center;
+}
+
+#pic4 {
+    background: url('images/Villa-Rucellai-Toscani-2812-2-348x348.jpg') no-repeat center center;
+}
+
+#pic5 {
+    background: url('images/Villa-Vanna-231-348x348.jpg') no-repeat center center;
 }
