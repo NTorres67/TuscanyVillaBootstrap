@@ -95,30 +95,11 @@ p.locheader{
 .row.checkerboard {
     display:flex;
     margin:40px;
-    /*margin-top:25px;
-    margin-right:20px;
-    margin-left:20px;*/
 }
 
 .col-4.checkercol {
     width:348px;
     height:348px;
-}
-
-#pic1.col-4.checkercol {
-    background: url('Images/3b-300x300.jpg') no-repeat center center;
-    /*width:100%;*/
-    /*height:auto;*/
-    /*background: url('Images/3b-348x348.jpg') no-repeat center center;*/
-    background-size: cover;
-}
-
-#pic2.col-4.checkercol {
-    background: url('Images/42-300x300.jpg') no-repeat center center;
-    /*width:100%;*/
-    /*height:auto;*/
-    /*background: url('Images/42-348x348.jpg') no-repeat center center;*/
-    background-size: cover;
 }
 
 p.checkerboard-header{
@@ -140,26 +121,8 @@ button.btn-checkerboard {
     margin-left:30%;
 }
 
-#pic3.col-4.checkercol {
-    /*background-image: url('Images/314-300x300.jpg');*/
-    background: url('Images/314-348x348.jpg') no-repeat center center;
-    background-size: cover;
-}
 
-#pic4.col-4.checkercol {
-    /*background: url('Images/Villa-Rucellai-Toscani-2812-2-300x300.jpg') no-repeat center center;*/
-    background: url('Images/Villa-Rucellai-Toscani-2812-2-348x348.jpg') no-repeat center center;
-    background-size: cover;
-}
-
-#pic5.col-4.checkercol {
-    /*background: url('Images/Villa-Vanna-231-300x300.jpg') no-repeat center center;*/
-    background: url('Images/Villa-Vanna-231-348x348.jpg') no-repeat center center;
-    background-size: cover;
-}
-
-
-/* Ben's Checker board*/
+/* Checker board */
 .spacerrow1 {
     height: 50px;
 }
